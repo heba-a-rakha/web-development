@@ -1,0 +1,82 @@
+
+body {
+    background-image: url("valentin-muller-bWtd1ZyEy6w-unsplash.jpg");
+    background-size:cover;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+   }
+div{
+    border-style: solid;
+    border-radius: 15px;
+    padding: 5px;    
+    align-content: center;    
+    text-align: center;
+    margin-top: 10px;
+}
+.holder_headline{
+    text-align: center;
+    color: white;
+    font-size:200% ;
+    font-family: 'Oswald', sans-serif;
+    margin:10px;
+    padding-top: 50px;
+    padding: 20px;    
+}
+
+button{
+    width:98%;;
+    font-size: xx-large;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    transform-style: preserve-3d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:10px;
+    height: 10%;
+}
+
+label {
+    display:block;
+}
+
+textarea , input{
+    align-items: center;    
+    background-color: unset;
+    color: white;
+    border-style: none;
+    border-bottom-color: whitesmoke;
+    border-bottom-style: solid;
+    border-bottom-width: thick;
+    width:90%;
+    margin-top: 10px;
+    height: fit-content;
+    height:30%;
+    font-size: 50%;
+}
+
+::placeholder{
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}
+.holderentry{
+    display:none;
+}
+
+.app{
+   
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 99vh;
+    border-style: none;
+}
+.holder_feel , .holder_zip{
+    font-size: 150%;
+    align-content: center;
+    justify-content: center;
+    height:30%;
+}
